@@ -1,0 +1,97 @@
+footer{
+    
+    width:100%;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    bottom: 0;
+    position: relative;
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 14px;
+    line-height: 20px;
+}
+h3{
+    font-size: 16px;
+}
+.row{
+    width:95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+   justify-content: space-between;
+}
+.col{
+    width: 300px;
+    flex-basis: 19%;
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    margin-left: 5px;
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button.fas{
+    font-size: 16px;
+    color: #ccc;
+}
+.social .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.logo{
+    border-radius: 50%;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    
+}
+
+.nkb{
+    color: aqua;
+}
